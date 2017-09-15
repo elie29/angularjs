@@ -12,20 +12,21 @@
 
 ## Create app using yo
 
-    yo app
+    `yo app`
 
 ## Bower && npm
 
 >npm covers back-end dependencies while bower covers front-end dependencies
 
     npm init : create package.json file
-    npm install karma-phantomjs-launcher --save-dev : Install karma-phantomjs-launcher and save it in package.json in devDependencies
+    npm install karma karma-jasmine karma-phantomjs-launcher --save-dev : Install dependencies and save it in package.json in devDependencies
     bower.init : create bower.json file
     bower install jquery --save : Install jquery as dependency for the front end and save it in bower.json file in dependencies
 
 ## Build & development
-
-Run `grunt` for building and `grunt serve` for preview.
+    Run `npm install`
+    Run `bower install`
+    Run `grunt` for building and `grunt serve` for preview.
 
 ## Testing
 
