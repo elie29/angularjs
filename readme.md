@@ -1,5 +1,4 @@
 # angular-formation
-
    url : https://openclassrooms.com/courses/developpez-vos-applications-web-avec-angularjs/installez-votre-environnement
 
 ## Commandes
